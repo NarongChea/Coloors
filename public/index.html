@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- Start small screen header -->
+    <header class="flex justify-between  items-center p-4 border-b-[1px] relative py-2 md:hidden sticky z-20 top-0 backdrop-blur-2xl">
+        <a href="#" class="text-2xl">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+        <a href="#" class="max-w-32 block absolute top-[50%] right-[50%] translate-x-[50%]  translate-y-[-50%]">
+            <img class="w-full" src="images/coolors-logo-freelogovectors.net_-removebg-preview.png" alt="Coolors logo">
+        </a>
+    </header>
+    <!-- End Small screen header -->
+    <!-- Start Big Screen header -->
+     <header class="hidden md:flex justify-between items-center p-4 py-2 border-b-[1px] sticky z-20 top-0 backdrop-blur-2xl">
+        <a href="#" class=" max-w-32  ">
+            <img class="w-full" src="images/coolors-logo-freelogovectors.net_-removebg-preview.png" alt="Coolors logo">
+        </a>
+        <div class="flex gap-6 items-center">
+            <ul class="flex font-semibold gap-5 text-md">
+                <li>Tools</li>
+                <li class="text-pink-500">Go Pro</li>
+                <li class="w-[1px] h-6 bg-gray-300"></li>
+                <li>Sign in</li>
+            </ul>
+            <button class="py-1 px-5 bg-blue-600 text-white font-semibold rounded-md hover:bg-blue-700">Sign up</button>
+        </div>
+     </header>
+    <!-- End Big Screen header -->
+     <div class=" py-[50px] grid md:grid-cols-[45%,50%] gap-8 overflow-hidden">
+             <div class="lg:w-[1030px] md:w-[970px] md:order-3 mx-auto">
+                <img src="images/smallcom.png" class=" md:hidden -translate-x-1 " alt="">
+                <img src="images/bigscreen.png" class=" hidden w-full md:inline-block " alt="">
+             </div>
+             <div class="flex flex-col items-center text-center">
+                <h1 class=" font-[800] tracking-tighter leading-[45px] text-[45px] mt-7">The super fast <br>color palettes <br> generator!</h1>
+             <p class="text-gray-500 mt-10 text-[17px] font-[500] mb-8">Create the perfect palette or get inspired by <br>thousands of beautiful color schemes.</p>
+                <button class="w-[280px] bg-blue-600 hover:bg-blue-700 py-3 mb-3 text-white rounded-xl font-semibold ">Start the generator</button>
+             <button class="w-[280px] bg-white hover:bg-gray-50 py-3  rounded-xl font-semibold border-[1px] border-gray-300 mb-9">Start the generator</button>
+             <button class="w-[280px] bg-white hover:bg-gray-50 py-3  rounded-xl font-semibold border-[1px]  flex gap-4 items-center justify-center text-orange-600 border-orange-500 leading-[6px]"><i class="fa-solid fa-award text-2xl"></i><div class="text-left"><p class="uppercase text-[11px]">product hunt</p><p class="text-lg font-bold">#1 Product of the month</p></div></button>
+             </div> 
+     </div>
+     <div class=" container mx-auto flex flex-wrap justify-between items-center gap-6 px-3 sm:*:basis-1/3 lg:*:basis-1/4 xl:flex-nowrap">
+        <a href="#" class="group   hover:bg-blue-100   bg-gray-200 rounded-[13px] py-[70px] px-3 flex-grow relative transition-all duration-300 overflow-hidden">
+            <div class="md:group-hover:opacity-0 flex flex-col items-center gap-4 ">
+            <i class="fa-brands fa-apple text-5xl"></i>
+            <h3 class="text-2xl font-bold">iOS App</h3>
+            <p class="leading-5 text-gray-600 text-center">Create, browse and save on the go.</p>
+            </div>
+            <p class="  text-sky-400 md:group-hover:opacity-100 opacity-0 absolute top-[110%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-[30px] font-[900] text-center group-hover:top-[50%] transition-all duration-300">View on the App Store</p>
+        </a>
+        <a href="#" class="group   hover:bg-green-100   bg-gray-200 rounded-[13px] py-[70px] px-3 flex-grow relative transition-all duration-300 overflow-hidden">
+            <div class="md:group-hover:opacity-0 flex flex-col items-center gap-4">
+            <i class='bx bxl-android text-5xl'></i>
+            <h3 class="text-2xl font-bold ">Android App</h3>
+            <p class="leading-5 text-gray-600 text-center">Thousands of palettes in your pocket.</p>
+            </div>
+            <p class="  text-green-400 md:group-hover:opacity-100 opacity-0 absolute top-[110%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-[30px] font-[900] text-center group-hover:top-[50%] transition-all duration-300">View on the Play Store</p>
+        </a>
+        <a href="#" class="group   hover:bg-pink-100   bg-gray-200 rounded-[13px] py-[70px] px-3 flex-grow relative transition-all duration-300 overflow-hidden">
+            <div class="md:group-hover:opacity-0 flex flex-col items-center gap-4">
+            <i class="fa-brands fa-figma text-5xl"></i>
+            <h3 class="text-2xl font-bold ">Figmar Plugin</h3>
+            <p class="leading-5 text-gray-600 text-center">All palettes right in your workspace.</p>
+            </div>
+            <p class="  text-pink-400 md:group-hover:opacity-100 opacity-0 absolute top-[110%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-[30px] font-[900] text-center group-hover:top-[50%] transition-all duration-300">Install now</p>
+        </a>
+        <a href="#" class="group   hover:bg-purple-100   bg-gray-200 rounded-[13px] py-[70px] px-3 flex-grow relative transition-all duration-300 overflow-hidden">
+            <div class="md:group-hover:opacity-0 flex flex-col items-center gap-4">
+            <i class='bx bxl-chrome text-5xl' ></i>
+            <h3 class="text-2xl font-bold ">Chrome Extension</h3>
+            <p class="leading-5 text-gray-600 text-center">Get and edit a palette every new tab.</p>
+            </div>
+            <p class="  text-purple-400 md:group-hover:opacity-100 opacity-0 absolute top-[110%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-[30px] font-[900] text-center group-hover:top-[50%] transition-all duration-300">Add to Chrome</p>
+        </a>
+        <a href="#" class="group   hover:bg-yellow-100   bg-gray-200 rounded-[13px] py-[70px] px-3 flex-grow relative transition-all duration-300 overflow-hidden">
+            <span class="absolute top-[7%] right-[7%] items-center rounded-md bg-pink-50 px-2 py-1 text-xs font-medium text-pink-700 ring-1 ring-inset ring-pink-700/10 uppercase">new</span>
+            <div class="md:group-hover:opacity-0 flex flex-col items-center gap-4">
+            <i class='bx bxl-adobe text-5xl' ></i>
+            <h3 class="text-2xl font-bold ">Adobe Extension</h3>
+            <p class="leading-5 text-gray-600 text-center">Use Coolors with your favorite tools.</p>
+            </div>
+            <p class="  text-yellow-400 md:group-hover:opacity-100 opacity-0 absolute top-[110%] left-[50%] -translate-x-[50%] -translate-y-[50%] text-[30px] font-[900] text-center group-hover:top-[50%] transition-all duration-300 ">Download</p>
+        </a>
+     </div>
+     <p class="text-center my-10  text-xl font-semibold mt-16 px-5">Used by 5+ million designers and by top companies</p>
+     <div class="flex flex-wrap text-6xl md:text-7xl text-black justify-center gap-10 px-5 ">
+        <a href="#"><i class='bx bxl-apple'></i></a>
+        <a href="#"><i class='bx bxl-dropbox' ></i></a>
+        <a href="#"><i class='bx bxl-windows'></i></a>
+        <a href="#"><i class='bx bxl-microsoft-teams'></i></a>
+        <a href="#"><i class='bx bxl-github' ></i></a>
+        <i class='bx bxl-discord-alt' ></i>
+        <i class='bx bxl-typescript' ></i>
+        <i class='bx bxl-steam' ></i>
+        <i class='bx bxl-meta' ></i>
+        <i class="fa-brands fa-firefox-browser"></i>
+        <i class="fa-brands fa-edge"></i>
+    </div>
+    <div class="bg-gray-100">
+        <div class=" mx-auto max-w-[85%] md:justify-between flex flex-col items-center gap-7 mt-10 py-16 md:flex-wrap md:flex-row md:items-start  md:gap-12 border-b-[1px] border-b-gray-300">
+            <div class="mt-3 text-[1rem]  text-center flex flex-col items-center gap-3 md:items-start">
+                <h4 class="font-bold text-[26px] mb-5">Tools</h4>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Generate your palletes</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Explore popular palletes</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Extract palletes from image</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Contrast checker</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Preview palletes on designs</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Reclor your own desgin</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Color picker</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Browse free fonts</a>
+            </div>
+            <div class="mt-3 text-[1rem]  text-center flex flex-col items-center gap-3 md:text-start md:items-start">
+                <h4 class="font-bold text-[26px] mb-5">More</h4>
+                <a href="#" class="text-decoration-none hover:text-blue-500 flex gap-5 items-center">List of color <span class="badge bg-orange-100 uppercase text-orange-500 text-[11px] font-bold px-2 py-[2px] rounded">new</span></a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Browse gradinets</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Create a gradient</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Contrast checker</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Make a gradient palette</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Image converter</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Create a collage</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Font Generator</a>
+            </div>
+            <div class="mt-3 text-[1rem]  text-center flex flex-col items-center gap-3 md:text-start md:items-start">
+                <h4 class="font-bold text-[26px] mb-5">Jobs</h4>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Find your next job</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Post a job</a>
+                <h4 class="font-bold text-[26px] mb-5">App</h4>
+                <a href="#" class="text-decoration-none hover:text-blue-500 flex gap-5 items-center">iOS App</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Android App</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Figma Plugin</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500 flex gap-5 items-center">Adobe Extension <span class="badge bg-pink-100 uppercase text-pink-500 text-[11px] font-bold px-2 py-[2px] rounded">new</span></a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Chrome Extension</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Instagram Page</a>
+            </div>
+            <div class="mt-3 text-[1rem]  text-center flex flex-col items-center gap-3 md:text-start md:items-start">
+                <h4 class="font-bold text-[26px] mb-5">Company</h4>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Pricing</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">License</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">terms of service</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Privacy policy</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Cookie policy</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Manage cookies</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Help center</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Advertise</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Affiliate</a>
+                <a href="#" class="text-decoration-none hover:text-blue-500">Contact</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
